@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Proyecto_final</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="itemAseo">Aseo del hogar</string>
+    <string name="itempersonal">Aseo Personal</string>
+    <string name="itemgranos">Granos y especias</string>
+    <string name="itembebidas">Bebidas</string>
+    <string name="itemcarrito">Ver carrito</string>
+    <string name="Tfab">Detergente Fab</string>
+    <string name="Tlimpdio">Limpido</string>
+    <string name="Taxion">Axión</string>
+    <string name="Pfab">Precio: $4000</string>
+    <string name="Plimpido">Precio: 2500</string>
+    <string name="Paxion">Precio:3500</string>
+    <string name="Tjabon_baño">Jabón de baño protex</string>
+    <string name="Pjabon_baño">Precio: $1850</string>
+    <string name="Tcrema_dental">Crema denta Colgate</string>
+    <string name="Tshampoo"><![CDATA[Shampoo H&S]]></string>
+    <string name="Pcrema">Precio: $2500</string>
+    <string name="Pshampoo">Precio: $8500</string>
+    <string name="Tarroz">Arroz Caribe</string>
+    <string name="Tfrijol">Frijol Aburra</string>
+    <string name="Tespecias">Cominos</string>
+    <string name="Parroz">Precio: $1900</string>
+    <string name="Pfrijol">Precio: $4500</string>
+    <string name="Pspecias">Precio: $500</string>
+    <string name="Tcoca_cola">Coca cola familiar</string>
+    <string name="TMrte">Mr Tee personal</string>
+    <string name="Tdel_valle">Del valle grande</string>
+    <string name="Pcocacola">Precio: $5000</string>
+    <string name="Pmrtee">Precio: $2000</string>
+    <string name="Pdelvalle">Precio: $3500</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lavender">
+
+
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenidos a MC"
+        android:textSize="55sp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50sp" />
+
+    <EditText
+        android:layout_width="@dimen/item_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/etnombre"
+        android:inputType="text"
+        android:hint="Usuario"
+        />
+
+
+    <EditText
+        android:layout_width="@dimen/item_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/etpassword"
+        android:inputType="textPassword"
+        android:hint="password"
+
+        />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btingresar"
+        android:text="Ingresar"
+        android:onClick="buscar_persona"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btregistrarse"
+        android:text="Registrarse"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmensage_login"/>
+
+
+
+</LinearLayout>

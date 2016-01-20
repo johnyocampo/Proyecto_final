@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lavender"
+    >
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:gravity="center"
+        android:id="@+id/etreg_nombre"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:gravity="center"
+        android:id="@+id/etrg_usuario"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contraseña"
+        android:gravity="center"
+        android:id="@+id/etreg_paswword"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:gravity="center"
+        android:id="@+id/etreg_email"/>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40sp" />
+    />
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enviar datos"
+        android:id="@+id/btenviar_datos"
+        android:onClick="Guardar_datos"
+        />
+
+
+
+</LinearLayout>
